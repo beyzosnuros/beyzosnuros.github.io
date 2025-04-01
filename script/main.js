@@ -20,17 +20,7 @@ window.addEventListener('load', () => {
 
 
 
-const video = document.getElementById('myVideo');
 
-video.addEventListener('loadedmetadata', () => {
-    video.currentTime = 0;
-});
-
-video.addEventListener('play', () => {
-    if (video.currentTime !== 0) {
-        video.currentTime = 0;
-    }
-});
 
 
 
